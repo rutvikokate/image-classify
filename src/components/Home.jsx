@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <div>
             <Header/>
-            <div className="hero first is-bold is-light">
+            <div className="hero first is-light">
                 <div className="container">
                     <div className="section">
                         <div className="title">Train data</div>

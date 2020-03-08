@@ -25,7 +25,7 @@ export class Header extends Component {
             <div className="left">
             {/*   <img src={logo} alt="" /> */}
               <div className="content">
-                <p className="title" style={{color:'#3298dc'}}>Image Classifier | Predictor</p>
+                <p className="title" style={{color:'white'}}>Image Classifier | Predictor</p>
               </div>
             </div>
             <div className="right">
