@@ -1,7 +1,7 @@
 
 @import '../node_modules/bulma/css/bulma.min.css';
 .App{
-  font-family: 'Montserrat';
+  font-family: 'Roboto';
 }
 .App-logo {
   height: 40vmin;
@@ -50,7 +50,7 @@
     cursor: pointer; }
   ._classifier_106ns_1 ul, ._classifier_106ns_1 li {
     list-style: none;
-    width:300px;
+
     padding: 0px 10px; }
   ._classifier_106ns_1 * {
     box-sizing: border-box; }
@@ -129,9 +129,9 @@
   height: 16px; }
 
 ._container_1nay6_1 {
-  border-radius: 5px 5px 0 0;
+  border-radius:0;
   width: 50%;
-  min-width: 250px;
+  min-width: 150px;
   margin:0 auto;
   height: fit-content;
   background: #3298dc;
@@ -196,25 +196,38 @@
 
 ._errors_1nay6_45 {
   margin-bottom: 20px; }
-
+  ._container_zze0l_1{
+    display: flex;
+    margin:0 auto;
+    flex-flow: wrap;
+  }
 ._container_zze0l_1 img {
-  width: 100px;
+  width:250px;
   height: 100px;
-  display: block; }
-
+  border-radius: 5px 5px 0 0;
+  display: flex; }
+._container_zze0l_1 li{
+  border-radius: 10px !important;
+  width:145px;
+ 
+}
 ._info_zze0l_6 {
-  border-radius: 0px;
-  background: rgba(0, 13, 51, 0.6);
-  padding: 10px !important;
+  border-radius: 0 0 5px 5px;
+  background: #3298dc;
+  padding: 3px !important;
   display: flex;
-  width: fit-content;
+  flex-direction: column;
+  font-size: 12px;
+  width: 100%;
+
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 20px !important; }
   ._info_zze0l_6 li {
+    padding:0px;
     flex: 1; }
 
 ._label_zze0l_17 {
-  text-align: right; }
+  text-align: left }
 
 ._logs_wa0s4_1 {
   position: relative;

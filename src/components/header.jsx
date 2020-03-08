@@ -25,13 +25,13 @@ export class Header extends Component {
             <div className="left">
             {/*   <img src={logo} alt="" /> */}
               <div className="content">
-                <p className="title">Image Classifier,Predictor</p>
+                <p className="title" style={{color:'#3298dc'}}>Image Classifier | Predictor</p>
               </div>
             </div>
             <div className="right">
               <ul>
-                <li><NavLink  exact activeClassName="active" to="/" ><button>TRAIN</button></NavLink></li>
-                <li><NavLink  exact activeClassName="active" to="/predict"><button>PREDICT</button></NavLink></li>
+                {/* <li><NavLink  exact activeClassName="active" to="/" ><button>TRAIN</button></NavLink></li>
+                <li><NavLink  exact activeClassName="active" to="/predict"><button>PREDICT</button></NavLink></li> */}
 {/*                 <li><NavLink  exact activeClassName="active" to="/form"><button>FORM</button></NavLink></li> */}
               </ul>
             </div>

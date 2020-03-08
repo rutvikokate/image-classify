@@ -41,12 +41,13 @@
     .header .header-wrap .right {
       display: flex;
       justify-content: flex-end;
+      padding-left:5px;
       align-items: center;
       padding: 0 5px; }
       .header .header-wrap .right ul {
         display: flex;
         align-items: center; 
-        padding-left:0;
+        padding:0;
         margin:5px 0;
         list-style: none;}
         .header .header-wrap .right ul li {
@@ -131,8 +132,7 @@
         .header .header-wrap .left .content .subtitle {
           font-size: 90%; }
       .header .header-wrap .right {
-        padding: 5px 0px;
-        padding-right: 5px;
+        padding:2.5px 0;
         background: white;
         box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
         border-radius: 0 0 10px 10px; }
